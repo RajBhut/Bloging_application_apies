@@ -3,6 +3,7 @@ package com.rajbhut.blog.services.impl;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.rajbhut.blog.entities.User;
@@ -13,7 +14,7 @@ import com.rajbhut.blog.exaptions.*;
 
 @Service
 public class UserServiceimpl implements UserService {
-
+@Autowired
 	private UserRepo userRepo;
 
 	@Override
