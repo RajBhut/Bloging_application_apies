@@ -9,7 +9,7 @@ String resorcename;
 String fieldname;
 long fieldValue;
 public ResorceNotFoundExaption(String resorcename, String fieldname, long fieldValue) {
-	super(String.format("%s not found with %s : %l",resorcename,fieldname,fieldValue));
+	super(String.format("%s not found with %s : %s",resorcename,fieldname,fieldValue));
 	this.resorcename = resorcename;
 	this.fieldname = fieldname;
 	this.fieldValue = fieldValue;
