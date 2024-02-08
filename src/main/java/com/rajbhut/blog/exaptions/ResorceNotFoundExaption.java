@@ -1,5 +1,4 @@
 package com.rajbhut.blog.exaptions;
-
 import lombok.Getter;
 import lombok.Setter;
 @Setter
@@ -9,9 +8,10 @@ String resorcename;
 String fieldname;
 long fieldValue;
 public ResorceNotFoundExaption(String resorcename, String fieldname, long fieldValue) {
-	super(String.format("%s not found with %s : %s",resorcename,fieldname,fieldValue));
-	this.resorcename = resorcename;
-	this.fieldname = fieldname;
-	this.fieldValue = fieldValue;
+super(String.format("%s not found with %s : %s",resorcename,fieldname,fieldValue));
+this.resorcename = resorcename;
+this.fieldname = fieldname;
+this.fieldValue = fieldValue;
+
 }
 }

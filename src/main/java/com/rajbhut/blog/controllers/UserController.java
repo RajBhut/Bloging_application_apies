@@ -61,5 +61,6 @@ public class UserController {
 		this.userService.deleteUser(userid);
 		return new ResponseEntity(new ApiResponse("User Deleted succesfully!",true),HttpStatus.OK);
 	}
+	
 
 }
